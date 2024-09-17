@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<div class="form-group submit">
+    <input type="submit" name="submit" value="Submit">
+</div><html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -33,6 +35,8 @@
             <label for="invoice_id">Invoice ID</label>
             <input type="text" id="invoice_id" name="invoice_id" placeholder="Enter Invoice ID">
         </div>
+
+      
 
         <fieldset class="form-group-full">
             <legend style="font-weight: bold;">Pay For:</legend>
